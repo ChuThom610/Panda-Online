@@ -1,9 +1,9 @@
     section{
         background: #F8E0F7;
         width: 100%;
-    }
-    section {
-      padding-top: 50px;
+        height: 100%;
+        padding-top: 50px;
+        overflow: auto;
     }
     
     #footer {
@@ -15,7 +15,7 @@
       height: 100px;
       line-height: 50px;
       position: absolute;
-      padding-bottom: 0;
+      margin-bottom: 0;
       padding-right: 0;
       left: 0;
       right: 0;

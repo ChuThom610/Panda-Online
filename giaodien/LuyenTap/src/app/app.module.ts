@@ -35,7 +35,9 @@ import { DemTamgiac } from './luyentap/chuong4-hinhhoc/dem-so-tamgiac.component'
 import { XemGioComponent } from './luyentap/chuong5-thoigian/xem-gio.component';
 
 import { luyentapComponent } from "app/luyentap/luyentap.component";
+import { KiemTraComponent } from './kiemtra/kiemtra.component';
 
+import { De1Component } from './kiemtra/de1.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +59,9 @@ import { luyentapComponent } from "app/luyentap/luyentap.component";
     DiemDoanthang,
     DemTamgiac,
     XemGioComponent,
-    luyentapComponent
+    luyentapComponent,
+    KiemTraComponent,
+    De1Component
 
   ],
   imports: [
