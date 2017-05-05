@@ -1,4 +1,4 @@
-import { CalQuestionDetailComponent } from 'app/luyentap/cal-question-detail.component';
+import { CalQuestionDetailComponent } from 'app/luyentap/chuong1-phamvi10/cal-question-detail.component';
 
 describe(`Component: CalQuestionDetailComponent`, function(){
     it(`should add a star if input is 7 `, ()=>{

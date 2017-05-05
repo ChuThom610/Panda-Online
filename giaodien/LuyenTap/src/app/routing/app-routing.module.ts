@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import {HomeComponent} from 'app/home.component';
+import { HomeComponent } from 'app/home.component';
 
 import { CountQuestionDetailComponent } from 'app/luyentap/chuong1-phamvi10/count-question-detail.component';
 import { CalQuestionDetailComponent } from 'app/luyentap/chuong1-phamvi10/cal-question-detail.component';
@@ -25,8 +25,13 @@ import { DemTamgiac } from 'app/luyentap/chuong4-hinhhoc/dem-so-tamgiac.componen
 
 import { XemGioComponent } from 'app/luyentap/chuong5-thoigian/xem-gio.component';
 
+// kiểm tra
+import { KiemTraComponent } from 'app/kiemtra/kiemtra.component';
+import { De1Component } from 'app/kiemtra/de1.component';
+
 const routes: Routes = [
-  {path:'home',component: HomeComponent},
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
 
   { path: 'luyentap', component: luyentapComponent },
   { path: 'demden5', component: CountQuestionDetailComponent },
@@ -48,7 +53,10 @@ const routes: Routes = [
   { path: 'diemdoanthang', component: DiemDoanthang },
   { path: 'demtamgiac', component: DemTamgiac },
 
-  { path: 'xemgio', component: XemGioComponent }
+  { path: 'xemgio', component: XemGioComponent },
+
+  { path: 'kiemtra', component: KiemTraComponent },
+  { path: 'de1', component: De1Component }
 ];
 
 @NgModule({

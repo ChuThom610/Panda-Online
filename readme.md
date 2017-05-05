@@ -29,7 +29,7 @@ Công cụ sử dụng
 * HTML/CSS
 * JavaScript/Jquery
 * Bootstrap
-* AngularJS
+* Angular2
 * Nodejs
 * Karma/Jasmine
 
@@ -47,4 +47,4 @@ Link kịch bản các Use case
 
 Khung ứng dụng lựa chọn
 =======================
-**AngularJS**
+**Angular2**

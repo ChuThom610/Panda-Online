@@ -21,7 +21,7 @@ export class DemTamgiac {
         {
             name_ques: "Đếm số hình tam giác.",
             link_img: "./assets/image/tamgiac3.jpg",
-            true_ans: 7
+            true_ans: 2
         },
         {
             name_ques: "Đếm số hình tam giác.",
@@ -31,7 +31,7 @@ export class DemTamgiac {
         {
             name_ques: "Đếm số hình tam giác.",
             link_img: "./assets/image/tamgiac2.jpg",
-            true_ans: 3
+            true_ans: 5
         }
     ];
     b2_c4_head = false;
