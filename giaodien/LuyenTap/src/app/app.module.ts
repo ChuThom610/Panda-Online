@@ -38,6 +38,8 @@ import { luyentapComponent } from "app/luyentap/luyentap.component";
 import { KiemTraComponent } from './kiemtra/kiemtra.component';
 
 import { De1Component } from './kiemtra/de1.component';
+import { De2Component } from './kiemtra/de2.component';
+//import { De3Component } from './kiemtra/de3.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +63,9 @@ import { De1Component } from './kiemtra/de1.component';
     XemGioComponent,
     luyentapComponent,
     KiemTraComponent,
-    De1Component
+    De1Component,
+    De2Component
+    //De3Component
 
   ],
   imports: [

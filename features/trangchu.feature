@@ -1,4 +1,4 @@
-Feature: Home
+﻿Feature: Home
     As a user
     I want to visit homepage
     In order to overview web app
@@ -17,19 +17,13 @@ Feature: Home
         
     Scenario: Enter "Kiểm tra"
         When I click on  "Kiểm tra"
-        Then I should see a list that include 6 chapters
-        When I click in chapter 1	
-        Then I should see 6 lesson test
-        When I click in "Đếm đến 5" lesson test
-        Then I should see question with may answer that I must choose true answer
+        Then I should see a list that include 5 examination
+        When I click in "Đề kiểm tra số 1"	
+        Then I should see a test exam include 10 question and "Điểm" panel
         
     Scenario: Enter "Kỹ năng sống"
         When I click on "Kỹ năng sống"
         Then I should see "Truyên ngắn" and "Quà tặng cuộc sống" items
-        
-    Scenario: Enter "Phụ huynh"
-        When I click on "Phụ huynh"
-        Then I should see "Học cùng trẻ", "Sổ tay" and "Thực đơn tuần" items        
         
     Scenario: Enter "Đăng nhập"
         When I click on "Đăng nhập"
