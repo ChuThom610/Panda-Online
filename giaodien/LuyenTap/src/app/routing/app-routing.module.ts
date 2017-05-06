@@ -28,6 +28,8 @@ import { XemGioComponent } from 'app/luyentap/chuong5-thoigian/xem-gio.component
 // kiểm tra
 import { KiemTraComponent } from 'app/kiemtra/kiemtra.component';
 import { De1Component } from 'app/kiemtra/de1.component';
+import { De2Component } from 'app/kiemtra/de2.component';
+//import { De3Component } from 'app/kiemtra/de3.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -56,7 +58,9 @@ const routes: Routes = [
   { path: 'xemgio', component: XemGioComponent },
 
   { path: 'kiemtra', component: KiemTraComponent },
-  { path: 'de1', component: De1Component }
+  { path: 'de1', component: De1Component },
+  { path: 'de2', component: De2Component },
+  //{ path: 'de3', component: De3Component },
 ];
 
 @NgModule({

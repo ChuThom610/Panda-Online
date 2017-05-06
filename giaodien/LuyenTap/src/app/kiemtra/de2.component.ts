@@ -2,41 +2,41 @@ import { Component } from '@angular/core';
 import { test } from './test';
 
 @Component({
-    selector: 'de1',
+    selector: 'de2',
     templateUrl: 'de.component.html',
     styleUrls: ['de.component.css'],
 
 })
 
-export class De1Component {
+export class De2Component {
     tests: test[] = [
         {
-            name_que: "Thực hiện phép tính",
+            name_que: "Tìm số nhỏ nhất trong các số sau.",
             name_link: "",
-            conten_ques: "34 + 46 = ??? ",
+            conten_ques: "34, 56, 32, 45, 50, 37",
             input_ans: "",
-            true_ans: 80
+            true_ans: 32
         },
         {
             name_que: "Thực hiện phép tính",
             name_link: "",
-            conten_ques: "26 + 46 = ??? ",
+            conten_ques: "28 + 36 = ??? ",
             input_ans: "",
-            true_ans: 72
+            true_ans: 64
         },
         {
             name_que: "Đếm số hình tam giác hiện trên hình vẽ.(Chỉ đếm những hình được nối bởi 3 điểm)",
-            name_link: "./assets/image/tamgiac2.jpg",
+            name_link: "./assets/image/tamgiac.jpg",
             conten_ques: "",
             input_ans: "",
-            true_ans: 5
+            true_ans: 6
         },
         {
-            name_que: "Thực hiện phép tính",
+            name_que: "Tìm số lớn nhất trong các số sau",
             name_link: "",
-            conten_ques: "86 - 45 = ??? ",
+            conten_ques: "35, 24, 47, 29, 36 ",
             input_ans: "",
-            true_ans: 41
+            true_ans: 47
         },
         {
             name_que: "Số lớn nhất trong các số sau ?",
@@ -48,16 +48,16 @@ export class De1Component {
         {
             name_que: "Thực hiện phép tính sau.",
             name_link: "",
-            conten_ques: "67 - 48 = ???",
+            conten_ques: "77 - 47 = ???",
             input_ans: "",
-            true_ans: 19
+            true_ans: 30
         },
         {
             name_que: "Thực hiện phép tính sau.",
             name_link: "",
-            conten_ques: "32 + 48 = ???",
+            conten_ques: "32 + 20 = ???",
             input_ans: "",
-            true_ans: 80
+            true_ans: 52
         },
         {
             name_que: "Đếm số cá xuất hiện trong hình.",
@@ -69,16 +69,16 @@ export class De1Component {
         {
             name_que: "Thực hiện phép tính sau.",
             name_link: "",
-            conten_ques: "87 - 48 = ???",
+            conten_ques: "60 - 30 = ???",
             input_ans: "",
-            true_ans: 39
+            true_ans: 30
         },
          {
             name_que: "Thực hiện phép tính sau.",
             name_link: "",
-            conten_ques: "12 + 30 = ???",
+            conten_ques: "40 + 30 = ???",
             input_ans: "",
-            true_ans: 42
+            true_ans: 70
         }
 
     ];
