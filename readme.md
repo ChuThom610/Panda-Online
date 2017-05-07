@@ -43,7 +43,6 @@ Use case
 Link kịch bản các Use case
 ==========================
 * **Các Features:** https://github.com/ChuThom610/Panda-Online/tree/master/features
-* **Các Uni-test:** https://github.com/ChuThom610/Panda-Online/tree/master/unit-testing
 
 Khung ứng dụng lựa chọn
 =======================
