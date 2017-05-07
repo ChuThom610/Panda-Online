@@ -33,6 +33,9 @@ import { De3Component } from 'app/kiemtra/de3.component';
 import { De4Component } from 'app/kiemtra/de4.component';
 import { De5Component } from 'app/kiemtra/de5.component';
 
+// kỹ năng sống
+import { KnsComponent } from 'app/kynangsong/kns.component';
+
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -66,6 +69,8 @@ const routes: Routes = [
   { path: 'de3', component: De3Component },
   { path: 'de4', component: De4Component },
   { path: 'de5', component: De5Component },
+
+  { path: 'kynangsong', component: KnsComponent },
 ];
 
 @NgModule({

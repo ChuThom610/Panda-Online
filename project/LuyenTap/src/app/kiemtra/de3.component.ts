@@ -82,10 +82,23 @@ export class De3Component {
         }
 
     ];
-    x = 0;
     showGuide = true;
     showChoice = false;
+    showChoiceCheck = false;
     first = true;
+
+    imgTrue(id) {
+        var img = document.createElement("IMG");
+        img.setAttribute("src", "./assets/image/dung.png");
+        document.getElementById(id).appendChild(img);
+    }
+    imgFalse(id) {
+        var img = document.createElement("IMG");
+        img.setAttribute("src", "./assets/image/sai.png");
+        document.getElementById(id).appendChild(img);
+    }
+
+
     cauhoi() {
         this.showGuide = false;
         for (var i = 0; i < this.tests.length; i++) {
@@ -115,19 +128,26 @@ export class De3Component {
             document.getElementById("q" + i).appendChild(ip);
         }
         this.showChoice = true;
+        this.showChoiceCheck = true;
 
     }
 
     checkAns() {
         this.first = false;
+        this.showChoiceCheck = false;
         var j;
         var diem = 0 ; 
         for (j = 0; j < this.tests.length; j++) {
             var txtkq = (<HTMLInputElement>document.getElementById("ip" + j)).value;
             if (parseInt(txtkq) == this.tests[j].true_ans) {
+                this.imgTrue("q"+j);
                 diem = diem + 1;
             }
-            else diem = diem + 0;
+            else {
+                this
+                .imgFalse("q"+j);
+                diem = diem + 0;
+            }
         }
         typeof diem;
         var d1 = diem.toString();

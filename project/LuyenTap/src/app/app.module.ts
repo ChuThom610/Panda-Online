@@ -36,6 +36,7 @@ import { XemGioComponent } from './luyentap/chuong5-thoigian/xem-gio.component';
 
 import { luyentapComponent } from "app/luyentap/luyentap.component";
 import { KiemTraComponent } from './kiemtra/kiemtra.component';
+import { KnsComponent } from './kynangsong/kns.component';
 
 import { De1Component } from './kiemtra/de1.component';
 import { De2Component } from './kiemtra/de2.component';
@@ -70,7 +71,8 @@ import { De5Component } from 'app/kiemtra/de5.component';
     De2Component,
     De3Component,
     De4Component,
-    De5Component
+    De5Component,
+    KnsComponent
 
   ],
   imports: [
