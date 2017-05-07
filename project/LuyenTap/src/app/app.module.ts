@@ -39,7 +39,10 @@ import { KiemTraComponent } from './kiemtra/kiemtra.component';
 
 import { De1Component } from './kiemtra/de1.component';
 import { De2Component } from './kiemtra/de2.component';
-//import { De3Component } from './kiemtra/de3.component';
+import { De3Component } from './kiemtra/de3.component';
+import { De4Component } from 'app/kiemtra/de4.component';
+import { De5Component } from 'app/kiemtra/de5.component';
+
 
 @NgModule({
   declarations: [
@@ -64,8 +67,10 @@ import { De2Component } from './kiemtra/de2.component';
     luyentapComponent,
     KiemTraComponent,
     De1Component,
-    De2Component
-    //De3Component
+    De2Component,
+    De3Component,
+    De4Component,
+    De5Component
 
   ],
   imports: [
