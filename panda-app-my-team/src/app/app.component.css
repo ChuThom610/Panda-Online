@@ -1,0 +1,27 @@
+    section{
+        background: #F8E0F7;
+        width: 100%;
+        height: 600px;
+        padding-top: 50px;
+        overflow: auto;
+        bottom: 0;
+    }
+    
+    footer {
+      background: gray;
+      border-style: solid;
+      color : white;
+      font-weight: bold;
+      display: block;
+     /* line-height: 50px;*/
+      position: absolute;
+      margin-bottom: 0;
+      padding-right: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      text-align: left;
+    }
+a{
+    color: orange;
+}
