@@ -1,0 +1,32 @@
+
+section{	
+    
+        background: #FFE4E1;
+        width: 100%;
+        padding-top: 50px;
+        overflow: auto;
+        bottom: 0;
+        min-height: 100%;
+    }
+    
+    footer {
+      background: gray;
+      border-style: solid;
+      color : white;
+      font-weight: bold;
+      display: block;
+      position: absolute;
+      margin-bottom: 0;
+      padding-right: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      text-align: left;
+    }
+a{
+    color: blue;
+}
+
+h4{
+    color: blue;
+}
