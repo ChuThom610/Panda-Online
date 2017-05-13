@@ -1,12 +1,13 @@
 
 section{	
     
-        background: #FFE4E1;
+        background: url("background.jpg") fixed no-repeat;
         width: 100%;
         padding-top: 50px;
         overflow: auto;
         bottom: 0;
         min-height: 100%;
+        scroll-behavior: auto;
     }
     
     footer {

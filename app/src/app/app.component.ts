@@ -8,6 +8,10 @@ import {HomeComponent} from './home.component';
     
 })
 export class AppComponent {
+
+    notice(): void{
+      alert("Bạn có thể sử dụng trang web này mà không cần Đăng nhập hay Đăng ký! Cảm ơn bạn đã quan tâm.");
+    }
      refresh():void {
     var timeOutSet = setTimeout(function() {
       location.reload(true);

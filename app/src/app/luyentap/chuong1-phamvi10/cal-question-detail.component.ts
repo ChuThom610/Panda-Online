@@ -6,8 +6,6 @@ import { CalQuestion } from './cal-question';
     selector: 'cal-question-detail',
     styleUrls :['./cal-question-detail.component.css'],
     templateUrl: './cal-question-detail.html',
-
-   
 }
 
 )

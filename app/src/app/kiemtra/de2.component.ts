@@ -22,7 +22,7 @@ export class De2Component {
             name_link: "",
             conten_ques: "74, 56, 52, 45, 90, 37",
             input_ans: "",
-            true_ans: 45
+            true_ans: 37
         },
         {
             name_que: "Thực hiện phép tính",

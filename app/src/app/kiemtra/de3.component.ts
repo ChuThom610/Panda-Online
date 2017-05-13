@@ -64,7 +64,7 @@ export class De3Component {
             name_link: "./assets/image/4dongho.jpg",
             conten_ques: "",
             input_ans: "",
-            true_ans: 5
+            true_ans: 4
         },
         {
             name_que: "Điền số thích hợp",

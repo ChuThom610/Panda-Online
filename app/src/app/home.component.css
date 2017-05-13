@@ -6,7 +6,7 @@ h3{
     color: orangered;
 }
 section{
-     background: url(http://farm9.staticflickr.com/8624/15750895067_f212661bbd_o.jpg) fixed no-repeat;
+     background: url("background.jpg") fixed no-repeat;
 }
 img{
     width: 100%;
