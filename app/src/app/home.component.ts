@@ -7,5 +7,5 @@ import {Component} from '@angular/core';
 })
 
 export class HomeComponent{
-
+  titles = ["Luyện tập", "Kiểm tra", "Kỹ năng sống"]
 }
