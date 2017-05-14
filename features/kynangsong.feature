@@ -4,7 +4,7 @@ Feature: Watch life skill items
     In order to improve my life skills
        
         
-    Scenario: Read "Sọ Dừa" story in "Truyện ngắn" column
+    Scenario: Read "Hưng Đạo Đại Vương" story in "Truyện ngắn" column
         Given I am on "Kỹ năng sống" page
         When I click on "Hưng Đạo Đại Vương" link
         Then I should see "Hưng Đạo Đại Vương" story to read
