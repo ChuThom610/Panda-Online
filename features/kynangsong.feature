@@ -4,13 +4,13 @@ Feature: Watch life skill items
     In order to improve my life skills
        
         
-    Scenario: Listen story "Sọ Dừa" in "Truyện ngắn"
+    Scenario: Read "Sọ Dừa" story in "Truyện ngắn" column
         Given I am on "Kỹ năng sống" page
-        When I click on "Hưng Đạo Đại Vương" button link in "Truyện ngắn" group
+        When I click on "Hưng Đạo Đại Vương" link
         Then I should see "Hưng Đạo Đại Vương" story to read
         
-    Scenario: Play "Quà tặng cuộc sống" videos  
+    Scenario: Watch "Gánh xôi của bà" video in "Quà tặng cuộc sống" column
         Given I am on "Kỹ năng sống" page
-        When I click on "Gánh xôi của bà" button
+        When I click on "Gánh xôi của bà" link 
         Then I should see video "Gánh xôi của bà" to watch
        
